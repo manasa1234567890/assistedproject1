@@ -1,0 +1,42 @@
+Selenium IDE is divided into different components, each having their own features and functionalities
+We have categorized seven different components of Selenium IDE, which includes
+
+Menu Bar
+Tool Bar
+Address Bar
+Test Case Pane
+Test Script Editor Box
+Start/Stop Recording Button
+Log, Reference Pane
+
+ Menu Bar:
+Menu bar is positioned at the top most portion of the Selenium IDE interface. The most commonly used modules 
+
+The Tool bar contains modules for controlling the execution of your test cases. In addition, it gives you a step feature for debugging you test cases. The most commonly used modules of Tool Bar menu include:
+
+Speed Control Option.
+Step Feature.
+Run Tests
+Run All
+
+Address Bar:
+This module provides you a dropdown menu that remembers all previous values for base URL. In simple words, 
+the base URL address bar remembers the previously visited websites so that the navigation becomes easy later on.
+
+Test Case Pane:
+This module contains all the test cases that are recorded by IDE. In simple words,
+it provides the list of all recorded test cases at the same time under the test case pane so that user could easily shuffle between the test cases.
+
+ Test Script Editor Box:
+Test Script Editor Box displaysall of the test scripts and user interactions that were recorded by the IDE. 
+Each user interaction is displayed in the same order in which they are performed. The Editor box is divided into three columns:Command, Target and Value.
+
+Start/Stop Recording Button:
+Record button records all of the user actions with the browser.
+
+Log, Reference Pane:
+The Log Pane displays the runtime messages during execution. It provides real-time updates of the actions performed by the IDE. 
+It can be categorized into four types: info, error, debug and warn.
+The reference Pane displays the complete detail of the currently selected selenese command in the editor.
+
+
