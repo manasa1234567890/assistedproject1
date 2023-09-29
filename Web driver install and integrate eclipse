@@ -1,0 +1,27 @@
+[0:39 pm, 29/09/2023] Muthahar C Sec: This section will guide you to:
+	Install and integrate WebDriver in Eclipse
+
+Development Environment:-
+●	Eclipse IDE for Enterprise Java Developers Version Oxygen.3a Release (4.7.3a)
+●	Java Development Kit Version 8
+
+This guide has mainly three subsections, namely: 
+4.2.1 Downloading Selenium Standalone Server jar
+4.2.2 Launching Eclipse and creating a Java project
+4.2.3 Configuring WebDriver with Eclipse
+	
+Step 4.2.1: Downloading Selenium Standalone Server jar:-
+●	Selenium is already installed in your practice lab. (Refer QA to QE: Lab Guide - Phase 1)
+
+Step 4.2.2: Launching Eclipse and creating a Java project:-
+●	Launch the Eclipse and create a Workspace.
+●	Create Project:
+Click on File -> New -> Java Project.
+
+Step 4.2.3: Configuring WebDriver with Eclipse:-
+●	Add selenium standalone server jars.
+●	Right-click on Project -> select Properties -> Select Java Build Path. 
+●	Navigate to the Libraries tab and click on the Add External Jars button.
+●	Add selenium standalone server Jar files.
+●	Click on the Apply and Close button.
+[0:39 pm, 29/09/2023] Siri: Tq
