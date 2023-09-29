@@ -1,0 +1,30 @@
+This section will guide you to understand:
+	How to install and configure Auto IT 
+
+Development Environment:
+	Eclipse IDE for Enterprise Java Developers Version Oxygen.3a Release (4.7.3a)
+	Java Development Kit Version 8
+
+This guide has mainly two subsection, namely:
+ Installing and configuring Auto IT 
+ Pushing the code to GitHub repositories
+
+ Installing and Configuring Auto IT 
+	Download Auto IT from https://www.autoitscript.com/site/autoit/downloads/ link.
+	Save it in one folder.
+	Double click on autoit-v3-setup.exe file and click on Install.
+	After successful installation, open up AutoIT Editor.
+C:\Program Files(x86)\AutoIt3\SciTE
+
+ Pushing the code to GitHub repositories
+	Open your command prompt and navigate to the folder where you have created your files:
+Cd <folder path>
+	Initialize your repository using the following command:
+                          Git init
+Add all the files to Git repository using following command:
+                          Git add.
+	Commit the changes using the following command:
+                         Git commit -m “add the comment”
+	Push the files to the folder you initially created using the following command:
+           Git push -u origin master
+
