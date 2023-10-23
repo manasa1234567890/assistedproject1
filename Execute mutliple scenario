@@ -1,0 +1,26 @@
+Feature: Registration, Login and MyAccount
+
+  Background: 
+    Given I am on the homepage
+    And I follow "Sign in"
+
+  @regression @smoke
+  Scenario: Verify Login Functionality
+    And I fill "email address" with "goswami.tarun77@gmail.com"
+    And I fill "password" with "Test@1234"
+    And I click "sign in"
+    Then I should see "MY ACCOUNT" heading
+
+  @regression
+  Scenario: Create New User
+    When I fill "registration email text box" with "goswami.tarun77+1@gmail.com"
+    Then I click "create an account button"
+    And I enter following details
+      | First Name | Tarun    |
+      | Last Name  | Goswami  |
+      | Password   | Test1234 |
+      | Date            |       13 |
+      | Year           |     1989 |
+    And I click "register button"
+
+
