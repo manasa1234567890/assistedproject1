@@ -1,0 +1,27 @@
+package Restassurescripts;
+
+import org.testng.annotations.Test;
+import static io.restassured.RestAssured.given;
+
+public class LogginginRestAssured {
+
+	@Test(priority='1')
+	public void loggingmethods()
+	{
+		String PMapikey = "PMAK-65447da9b6fc68003817a68e-2c6ccf1c810ebc028f2cb6367db0fa8299";
+		given().baseUri("https://api.postman.com")
+		.basePath("/workspaces")
+		.header("X-API-Key", PMapikey)
+		.when().get()
+		//.then().statusCode(200).log().headers()
+		//.then().log().ifError()
+		//.then().statusCode(200).log().cookies();
+		.then().statusCode(200).log().all();
+		
+		
+	}
+
+}
+
+
+
